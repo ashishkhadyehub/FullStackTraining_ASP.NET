@@ -70,6 +70,9 @@
     <Content Include="Index.aspx" />
     <Content Include="IspostBack.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Session1.aspx" />
+    <Content Include="Session2.aspx" />
+    <Content Include="ViewStateEx.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,12 +98,33 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Session1.aspx.cs">
+      <DependentUpon>Session1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session1.aspx.designer.cs">
+      <DependentUpon>Session1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session2.aspx.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session2.aspx.designer.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStateEx.aspx.cs">
+      <DependentUpon>ViewStateEx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewStateEx.aspx.designer.cs">
+      <DependentUpon>ViewStateEx.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

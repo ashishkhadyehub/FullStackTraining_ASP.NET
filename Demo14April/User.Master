@@ -39,6 +39,7 @@
         <a class="dropdown-item" href="Register.aspx">Master Page and Content Page</a>
         <a class="dropdown-item" href="Register.aspx">JS Validations</a>
         <a class="dropdown-item" href="IspostBack.aspx">IsPostBack</a>
+          <a class="dropdown-item" href="ViewStateEx.aspx">ViewState</a>
       </div>
     </li>
                 </ul>
