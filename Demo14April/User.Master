@@ -40,6 +40,7 @@
         <a class="dropdown-item" href="Register.aspx">JS Validations</a>
         <a class="dropdown-item" href="IspostBack.aspx">IsPostBack</a>
           <a class="dropdown-item" href="ViewStateEx.aspx">ViewState</a>
+          <a class="dropdown-item" href="Session1.aspx">Session</a>
       </div>
     </li>
                 </ul>
