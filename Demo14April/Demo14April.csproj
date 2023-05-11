@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="cookies1.aspx" />
     <Content Include="Cookies2.aspx" />
+    <Content Include="Dropdownevent.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IspostBack.aspx" />
     <Content Include="QS1.aspx" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Cookies2.aspx.designer.cs">
       <DependentUpon>Cookies2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dropdownevent.aspx.cs">
+      <DependentUpon>Dropdownevent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dropdownevent.aspx.designer.cs">
+      <DependentUpon>Dropdownevent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
