@@ -77,7 +77,9 @@
     <Content Include="Register.aspx" />
     <Content Include="Session1.aspx" />
     <Content Include="Session2.aspx" />
+    <Content Include="ShowData.aspx" />
     <Content Include="TextChange.aspx" />
+    <Content Include="UploadFile.aspx" />
     <Content Include="ViewStateEx.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -153,12 +155,26 @@
     <Compile Include="Session2.aspx.designer.cs">
       <DependentUpon>Session2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ShowData.aspx.cs">
+      <DependentUpon>ShowData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowData.aspx.designer.cs">
+      <DependentUpon>ShowData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TextChange.aspx.cs">
       <DependentUpon>TextChange.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TextChange.aspx.designer.cs">
       <DependentUpon>TextChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
     </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
@@ -184,6 +200,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Photos\" />
+    <Folder Include="ThumbPhotos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

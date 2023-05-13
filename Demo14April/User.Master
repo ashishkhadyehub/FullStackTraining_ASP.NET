@@ -46,6 +46,8 @@
           <a class="dropdown-item" href="TextChange.aspx">Text Changed Method</a>
           <a class="dropdown-item" href="Dropdownevent.aspx">OnSelectedIndexChanged Event</a>
           <a class="dropdown-item" href="Register.aspx">Save form data to DB</a>
+          <a class="dropdown-item" href="UploadFile.aspx">Uploading Files</a>
+           <a class="dropdown-item" href="ShowData.aspx">Show Data from DB</a>
       </div>
     </li>
                 </ul>
