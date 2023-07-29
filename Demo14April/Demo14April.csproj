@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="cookies1.aspx" />
     <Content Include="Cookies2.aspx" />
+    <Content Include="dbupdates.txt" />
     <Content Include="Dropdownevent.aspx" />
     <Content Include="gvexample.aspx" />
     <Content Include="Index.aspx" />
