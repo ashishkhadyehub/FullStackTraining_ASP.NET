@@ -70,6 +70,7 @@
     <Content Include="cookies1.aspx" />
     <Content Include="Cookies2.aspx" />
     <Content Include="Dropdownevent.aspx" />
+    <Content Include="gvexample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IspostBack.aspx" />
     <Content Include="QS1.aspx" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="Dropdownevent.aspx.designer.cs">
       <DependentUpon>Dropdownevent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gvexample.aspx.cs">
+      <DependentUpon>gvexample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gvexample.aspx.designer.cs">
+      <DependentUpon>gvexample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
