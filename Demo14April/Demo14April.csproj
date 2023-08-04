@@ -77,7 +77,6 @@
     <Content Include="gvexample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IspostBack.aspx" />
-    <Content Include="LiteralExample.aspx" />
     <Content Include="LitExample.aspx" />
     <Content Include="QS1.aspx" />
     <Content Include="QS2.aspx" />
@@ -139,13 +138,6 @@
     </Compile>
     <Compile Include="IspostBack.aspx.designer.cs">
       <DependentUpon>IspostBack.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LiteralExample.aspx.cs">
-      <DependentUpon>LiteralExample.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LiteralExample.aspx.designer.cs">
-      <DependentUpon>LiteralExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="LitExample.aspx.cs">
       <DependentUpon>LitExample.aspx</DependentUpon>
