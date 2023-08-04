@@ -49,6 +49,7 @@
           <a class="dropdown-item" href="UploadFile.aspx">Uploading Files</a>
            <a class="dropdown-item" href="ShowData.aspx">Show Data from DB</a>
            <a class="dropdown-item" href="gvexample.aspx">Gridview Example</a>
+          <a class="dropdown-item" target="_blank" href="LitExample.aspx">Literal Example</a>
       </div>
     </li>
                 </ul>
