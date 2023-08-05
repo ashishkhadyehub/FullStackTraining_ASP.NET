@@ -81,6 +81,7 @@
     <Content Include="QS1.aspx" />
     <Content Include="QS2.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="RepeaterExample.aspx" />
     <Content Include="Session1.aspx" />
     <Content Include="Session2.aspx" />
     <Content Include="ShowData.aspx" />
@@ -167,6 +168,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RepeaterExample.aspx.cs">
+      <DependentUpon>RepeaterExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RepeaterExample.aspx.designer.cs">
+      <DependentUpon>RepeaterExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Session1.aspx.cs">
       <DependentUpon>Session1.aspx</DependentUpon>
