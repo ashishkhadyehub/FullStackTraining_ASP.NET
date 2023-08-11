@@ -51,6 +51,7 @@
            <a class="dropdown-item" href="gvexample.aspx">Gridview Example</a>
           <a class="dropdown-item" target="_blank" href="LitExample.aspx">Literal Example</a>
           <a class="dropdown-item" target="_blank" href="RepeaterExample.aspx">Repeater Example</a>
+           <a class="dropdown-item" target="_blank" href="aspvalidatorsexample.aspx">ASP Validators</a>
       </div>
     </li>
                 </ul>
